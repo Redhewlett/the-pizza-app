@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "neapolitan",
+    "description": "Also known as pizza Napolitana or Naples-style pizza, Neapolitan is a traditional type of pizza that originated in Naples, Italy.It features a thin crust and basic, but very fresh topping. This makes for a delicious, harmonized taste that melts on the palette without various different flavors competing with one another (as often is the case with more “busy” pizzas).",
+    "traditionalToppings": ["(Buffalo) Mozzarella cheese", "(San Marzano)Tomatoes", "Basil"],
+    "howToMakeIt": ""
+  },
+  {
+    "id": 2,
+    "name": "new-york style",
+    "description": "Boasting a thin, foldable base with a large, thick crust, New York-style pizza can be eaten whole or is also commonly sold in slices for eating on-the-go. New York-style pizzas tend to feature more cheese than their Neapolitan equivalents, and as they are cooked for slightly longer on a lower heat, they are made with mozzarella with a lower moisture content. ",
+    "traditionalToppings": ["Mozzarella cheese", "Tomatoes"],
+    "howToMakeIt": ""
+  },
+  {
+    "id": 3,
+    "name": "Chicago / Deep-Dish Pizza",
+    "description": "This style of pizza is baked in a pan, which creates a high crust and plenty of space for lots of toppings. Due  to its relatively long cooking times, the toppings are placed in reverse order on a Chicago pizza. You start with the cheese, followed by other toppings, then finish off with the tomato sauce that also serves as a protective layer.",
+    "traditionalToppings": ["Cheese", "Tomatoes", "sausage", "pepperoni", "Onions", "Mushrooms", "Bell", "peppers"],
+    "howToMakeIt": ""
+  }
+]
