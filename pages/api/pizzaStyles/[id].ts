@@ -9,10 +9,9 @@ import { getOnePizzaStyle } from '../../../functions/pizzaStyles'
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === 'GET') {
-    // check if it's a number without having to deal with it's type
     const id = req.query.id
     console.log(id)
-
+    // check if it's a number without having to deal with it's type
     if (Number(id) >= 0) {
       const pizza = getOnePizzaStyle(Number(id))
       res.status(200).json({ pizzaStyle: pizza })
