@@ -13,6 +13,6 @@ export function getAllPizzaStyles() {
   return pizzaStyleArray
 }
 // one style with index
-export function getOnePizzaStyle(index: number) {
-  return pizzaStyles[index]
+export function getOnePizzaStyle(id: number) {
+  return pizzaStyles[id]
 }

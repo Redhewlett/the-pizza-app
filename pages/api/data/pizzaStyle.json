@@ -1,23 +1,58 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "name": "neapolitan",
     "description": "Also known as pizza Napolitana or Naples-style pizza, Neapolitan is a traditional type of pizza that originated in Naples, Italy.It features a thin crust and basic, but very fresh topping. This makes for a delicious, harmonized taste that melts on the palette without various different flavors competing with one another (as often is the case with more “busy” pizzas).",
     "traditionalToppings": ["(Buffalo) Mozzarella cheese", "(San Marzano)Tomatoes", "Basil"],
     "howToMakeIt": ""
   },
   {
-    "id": 2,
+    "id": 1,
     "name": "new-york style",
     "description": "Boasting a thin, foldable base with a large, thick crust, New York-style pizza can be eaten whole or is also commonly sold in slices for eating on-the-go. New York-style pizzas tend to feature more cheese than their Neapolitan equivalents, and as they are cooked for slightly longer on a lower heat, they are made with mozzarella with a lower moisture content. ",
     "traditionalToppings": ["Mozzarella cheese", "Tomatoes"],
     "howToMakeIt": ""
   },
   {
-    "id": 3,
-    "name": "Chicago / Deep-Dish Pizza",
+    "id": 2,
+    "name": "chicago / deep-dish Pizza",
     "description": "This style of pizza is baked in a pan, which creates a high crust and plenty of space for lots of toppings. Due  to its relatively long cooking times, the toppings are placed in reverse order on a Chicago pizza. You start with the cheese, followed by other toppings, then finish off with the tomato sauce that also serves as a protective layer.",
     "traditionalToppings": ["Cheese", "Tomatoes", "sausage", "pepperoni", "Onions", "Mushrooms", "Bell", "peppers"],
+    "howToMakeIt": ""
+  },
+  {
+    "id": 3,
+    "name": "sicilian",
+    "description": "La Siciliana, also known as sfincione (thick sponge) has a thick, extra fluffy crust with a crunchy exterior.",
+    "traditionalToppings": ["Cheese", "Tomatoes", "Onions", "Anchovies", "Herbs"],
+    "howToMakeIt": ""
+  },
+  {
+    "id": 4,
+    "name": "californian",
+    "description": "Californian pizza dates back to the 1980s and, like California cuisine in general, is defined by its use of fresh, local and seasonal produce. It features a thin crust and its toppings can vary considerably, with some novel combinations including gourmet picks.",
+    "traditionalToppings": ["Goat’s", "Cheese", "Tomato", "Baby vegetables", "Smoked salmon", "Red onions", "Pepperoni", "BBQ chicken"],
+    "howToMakeIt": ""
+  },
+  {
+    "id": 5,
+    "name": "Detroit",
+    "description": "Detroit-style pizza is rectangular in shape with a thick, chewy crust. It was often originally baked in spare industrial trays from Detroit factories, giving it its depth and shape. The crust is served crispy on the bottom, often brushed with butter before baking. ",
+    "traditionalToppings": ["Cheese", "Tomato sauce", "Pepperoni", "Mushrooms"],
+    "howToMakeIt": ""
+  },
+  {
+    "id": 6,
+    "name": "St. Louis",
+    "description": "St. Louis pizzas are easily distinguishable by their wafer-thin crust. The crust is made without yeast, and as it is extremely brittle, this style of pizza is cut into rectangular slices rather than wedges. Most St. Louis pizzas are topped with a blended cheese, known as Provel, which originated in the city.",
+    "traditionalToppings": ["Provel cheese", "Tomato sauce", "Oregano", "Bacon"],
+    "howToMakeIt": ""
+  },
+  {
+    "id": 7,
+    "name": "St. Louis",
+    "description": "Common in New England and parts of New York State, Greek pizza features a spongy, airy crust. Proofed and baked in shallow pans, unlike regular pizzas, the dough is not stretched. While Greek-style pizzas are not very thin, they are also not as thick as Chicago or Detroit-style pizzas. They tend to predominantly feature popular ingredients from Greek cuisine.",
+    "traditionalToppings": ["Feta cheese", "Olives", "Sun-dried tomatoes", "Roasted red peppers"],
     "howToMakeIt": ""
   }
 ]
