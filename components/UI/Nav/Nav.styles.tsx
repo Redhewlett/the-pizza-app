@@ -24,24 +24,33 @@ export const NavBar = styled.div`
     gap: 0.5em;
   }
   li a {
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
     color: white;
     font-size: 1.5vw;
     text-decoration: none;
     transition: all ease-in-out 250ms;
   }
-
   li a:hover {
     color: var(--green);
+  }
+  li a:hover svg {
+    fill: var(--green);
+  }
+  svg {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.2em;
+    fill: white;
+    transition: all ease-in-out 250ms;
   }
   .active {
     color: white;
     text-decoration: underline;
   }
-  .icon {
-    margin-right: 0.2em;
-  }
-  .active > .icon {
-    color: var(--green);
+  .active > svg {
+    fill: var(--green);
   }
   //phones
   @media screen and (min-width: 280px) and (max-width: 480px) {
