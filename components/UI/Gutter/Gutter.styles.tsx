@@ -11,11 +11,9 @@ export const GutterBar = styled.div`
   h2 {
     font-size: 2vw;
   }
-  h2 > strong {
-    color: #e64d4d;
-  }
-  p {
+  h3 {
     font-size: 1vw;
+    font-weight: 300;
   }
   @media screen and (min-width: 320px) and (max-width: 480px) {
     height: 12vh;
@@ -23,7 +21,7 @@ export const GutterBar = styled.div`
     h2 {
       font-size: 5vw;
     }
-    p {
+    h3 {
       font-size: 4.5vw;
       text-align: center;
     }
@@ -35,7 +33,7 @@ export const GutterBar = styled.div`
     h2 {
       font-size: 5vw;
     }
-    p {
+    h3 {
       font-size: 3.7vw;
       text-align: center;
     }

@@ -1,36 +1,24 @@
-import React, { useState, useEffect } from "react"
-//type def
-interface Props {
-  title: string
-  sub?: string
-}
+//type
+import { GutterProps } from "../Gutter"
 
-const GutterTitle: React.FC<Props> = (props) => {
-  const titleArray = props.title.split(" ")
-  const [lastWord, setLastWord] = useState("")
-  const [beforeLastWord, setBeforeLastWord] = useState([""])
-  const currentURL = window.location.href
+const GutterTitle: React.FC<GutterProps> = (props) => {
+  const title = props.title
+  const pizza = title?.match(/pizza/gi)
 
-  useEffect(() => {
-    if (currentURL.includes("create")) {
-      setBeforeLastWord(titleArray.slice(0, titleArray.length - 1))
-      setLastWord(titleArray[titleArray.length - 1])
-    } else return
-    /* eslint-disable */
-  }, [])
-  /* eslint-disable */
+  const titleWithPizza = pizza ? (
+    <>
+      {title?.split("pizza")[0]}
+      <span style={{ color: "#e64d4d" }}>pizza</span>
+      {title?.split("pizza")[1]}
+    </>
+  ) : (
+    <>{title}</>
+  )
 
   return (
     <>
-      {currentURL.includes("create") ? (
-        <h2>
-          {beforeLastWord.map((word) => word + " ")}
-          <strong> {lastWord}</strong>
-        </h2>
-      ) : (
-        <h2>{props.title}</h2>
-      )}
-      <p>{props.sub ? props.sub : ""}</p>
+      <h2>{titleWithPizza}</h2>
+      <h3>{props.sub ? props.sub : ""}</h3>
     </>
   )
 }
